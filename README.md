@@ -35,7 +35,7 @@ Because Net Sniffer is built as a **Bookmarklet**, you don't need to install any
 ### Method 2: Remote Loader (Recommended for Mobile/Kiwi Browser)
 If you frequently update the script, host `script.js` online (e.g., GitHub Gist or your own server) and use this loader in your bookmark to always fetch the latest version:
 ```javascript
-javascript:(function(){var s=document.createElement('script');s.src='https://raw.githubusercontent.com/gilangf3000/NetSniffer/refs/heads/main/script.js';document.body.appendChild(s);})();
+javascript:(function(){var javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gilangf3000/NetSniffer@main/script.js';document.body.appendChild(s);})();
 ```
 
 ---
